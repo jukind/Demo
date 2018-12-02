@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= 'CSGO Major MVP'
+  ul
+    each winner in winners
+      li= winner.year + ': ' + winner.player + ' (' + winner.team + ')'
+

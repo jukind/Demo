@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h3= 'Major winners since 2013'
+    ul
+        each winner in winners
+            li= winner.year + ': ' + winner.team
+    a(href='/majorWinners/add') Add new major winner
+

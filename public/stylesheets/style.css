@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightcyan;
+}
+
+h1{
+  padding-top: 10px
+}
+
+nav {
+  float: center;
+  background-color: lightgreen;
+}
+
